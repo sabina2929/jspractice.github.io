@@ -1,0 +1,17 @@
+.cos-rev{
+    position: absolute; 
+    width: 1100px;
+    top: 3475px;/*Спускаем его вниз*/
+    margin-left: 120px; /*двигаем на лево к середине */
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+
+.review{
+    margin-top: 50px;
+}
+.slide1{
+    margin-left: 10px;
+}

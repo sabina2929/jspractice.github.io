@@ -1,0 +1,59 @@
+
+.popup_btn{
+    background-color: powderblue;
+    margin: 20% 50% ;
+}
+.popup_sign{
+    display: none;
+}
+.popup_overlay{
+    position: fixed;  /* чтобы сделать фон на весь экран */
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0; 
+    background: rgba(0, 0, 0, 0.5);/*цвет фона , 0,5-это празрачность */
+    display: flex; /*нужен чтобы контент , который мы будем прописывть в дальнейшем был по центру*/
+    justify-content: center;
+    text-align: center;
+
+    
+}
+.content{
+    background-color: #fff;/*цвет */
+    width: 500px;/*ширина */
+    height: 500px;/*высота*/
+    border-radius: 0.3rem;/*закругляем углы*/
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.3);/*добавим тени , чтобы был эффект выступающего элемента*/
+    margin-top: 8%;/*отступ внешний */
+    position: relative;/*нужен для позиционирования кнопки close */
+    background-color:#735CFF ;
+   
+}
+.close{
+    position: absolute;
+    right:  10px;
+    top: 10px;
+
+}
+
+.h_sign{
+    margin-top: 30px;
+    font-family: 'Space Age';
+    color: #000000;
+}
+
+.sub_sign{
+    width: 160px;
+    height: 55px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 5px;
+    
+}
+
